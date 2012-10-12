@@ -2,18 +2,16 @@
   <head>
     <title>Quote Slide Show</title>
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
-    <script type="text/javascript" src="src/shuffle.js"></script>
-    <script type="text/javascript" src="src/quote_slide_show.js"></script>
+    <script type="text/javascript" src="src/jquery.quote_slide_show.js"></script>
   </head>
   <body>
-    <h1>Hello</h1>
-    <div class ="quote">This site is the best site!</div>
-    <div class ="quote">Seriously so awesome!</div>
-    <div class ="quote">Damn that is nice!</div>
+    <h1>Quote Slide Show</h1>
+    <div class ="quote">I totally recommend you this!</div>
+    <div class ="quote">This totally changed my life!</div>
+    <div class ="quote">Seriously awesome!</div>
 
     <script type="text/javascript">
-      var slideShow = new QuoteSlideShow($('.quote'))
-      slideShow.start()
+      $('.quote').quoteSlideShow()
     </script>
   </body>
 </html>
