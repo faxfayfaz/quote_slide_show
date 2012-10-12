@@ -46,7 +46,6 @@ jQuery.fn.extend({
       }, options.speed);
     };
     showQuote = function() {
-      console.log(_this);
       return $(_this[currentQuote]).fadeOut(options.fadeSpeed, function() {
         if (currentQuote >= (totalQuotes - 1)) {
           currentQuote = 0;
