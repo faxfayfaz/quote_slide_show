@@ -16,4 +16,4 @@ A lightweight jquery plugin to show quotes/testimonials with a fadein/out effect
     random: true,    // defaults to false
     fadeSpeed: 1000  // defaults to 500
   });
-<pre>
+</pre>
