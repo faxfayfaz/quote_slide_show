@@ -29,7 +29,7 @@ jQuery.fn.extend({
       _this = this;
     defaults = {
       random: false,
-      speed: 5000,
+      delay: 5000,
       fadeSpeed: 500
     };
     options = $.extend(options, defaults);
@@ -43,7 +43,7 @@ jQuery.fn.extend({
       _this.hide().first().show();
       return playInterval = setInterval(function() {
         return showQuote();
-      }, options.speed);
+      }, options.delay);
     };
     showQuote = function() {
       return $(_this[currentQuote]).fadeOut(options.fadeSpeed, function() {

@@ -27,7 +27,7 @@ jQuery.fn.extend
 
     defaults =
       random: false
-      speed: 5000
+      delay: 5000
       fadeSpeed: 500
 
     options = $.extend options, defaults
@@ -42,7 +42,7 @@ jQuery.fn.extend
 
       playInterval = setInterval(->
         showQuote()
-      , options.speed)
+      , options.delay)
 
     showQuote= =>
       $(@[currentQuote]).fadeOut options.fadeSpeed, =>
