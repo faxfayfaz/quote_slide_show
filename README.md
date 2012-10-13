@@ -12,7 +12,7 @@ A lightweight jquery plugin to show quotes/testimonials with a fadein/out effect
 
 <pre>
   $('.quote').quoteSlideShow({
-    speed: 7000,     // defaults to 5000
+    delay: 7000,     // defaults to 5000
     random: true,    // defaults to false
     fadeSpeed: 1000  // defaults to 500
   });
